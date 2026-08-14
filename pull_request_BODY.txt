@@ -1,0 +1,5 @@
+Closes #2
+
+This PR adds docs/README.md as the central entrypoint for OctoAcme project management documentation. The README provides an overview, a concise process summary, quick role-based navigation, and links to the existing phase-specific docs in docs/.
+
+The content aligns with the existing documents in docs/ and follows the request in issue #2.
