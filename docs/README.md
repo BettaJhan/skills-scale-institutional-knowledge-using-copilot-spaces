@@ -1,10 +1,17 @@
 # OctoAcme Project Management Documentation
 
 ## Overview
-OctoAcme runs projects using a clear, iterative lifecycle that moves from initiation through planning, execution, release, and retrospective. Initiation requires a lightweight Project One-pager (problem, objective, success metrics, stakeholders, timeline, quick risks) and a go/no‑go decision before planning. Planning breaks approved initiatives into shippable increments with a prioritized backlog, estimates, a Definition of Done, a release timeline, and a simple Risk Register. Core artifacts—project charter/one‑pager, backlog, acceptance criteria, risk register, and release notes—are kept in the repo so the team has a single source of truth.
+
+OctoAcme’s project management approach is organized around clear initiation, planning, execution, and continuous-improvement stages. Project initiation centers on defining problem statements, success metrics, and stakeholder alignment; planning emphasizes roadmap and backlog prioritization, acceptance criteria, and estimates so work can be broken into deliverable increments. Execution is tracked against project plans and timelines with explicit handling of risks, dependencies, and resource constraints; releases follow documented deployment checklists and post-release monitoring. Retrospectives and continuous-improvement practices close the loop, ensuring lessons and decisions feed back into future planning.
+
+Roles and responsibilities are explicitly defined to keep accountability clear. Product Managers own vision, prioritization, and outcome measurement; Project Managers coordinate schedules, risk registers, decision logs, and stakeholder reports; Developers implement features, write and maintain tests and docs, participate in design/code reviews, and help estimate and mitigate technical risks. The persona definitions are used to frame scenarios and align expectations across the team.
+
+Communication is structured and frequent: teams use daily standups and sprint planning for short-cycle coordination, weekly alignment between PM and engineering leads for strategic sync, and PR descriptions and code review comments for implementation-level discussions. Project Managers provide weekly status updates and use project boards, meeting facilitation, and stakeholder briefings to maintain transparency; risk and communication documents prescribe risk registers and decision logs to surface and track issues.
+
+Quality assurance is treated as a shared responsibility. Developers are expected to maintain high test coverage, write and maintain tests and documentation, and use code reviews and acceptance criteria to gate work. Observability and monitoring are part of the delivery process to detect regressions post-deployment, while release and deployment guidance plus retrospective practices ensure defects and process gaps are identified and remediated continuously.
 
 ## Process Summary
-OctoAcme projects follow a structured six-phase lifecycle: Initiation, Planning, Execution & Tracking, Release & Deployment, Retrospective & Continuous Improvement, and Risk Management & Communication. Each phase has focused guidance and deliverables to keep projects aligned to outcomes and reduce delivery risk.
+OctoAcme projects follow a structured six-phase lifecycle: Initiation, Planning, Execution & Tracking, Release & Deployment, Retrospective & Continuous Improvement, and Risk Management & Communication. Each phase includes defined artifacts, roles, and acceptance criteria to support predictable delivery.
 
 ## Key Workflows
 - Project board: Backlog → Ready → In Progress → In Review → QA → Done
