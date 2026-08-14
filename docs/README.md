@@ -62,6 +62,26 @@ OctoAcme projects follow a structured six-phase lifecycle: Initiation, Planning,
 - Executing: Execution & Tracking and Risk Management & Communication
 - Preparing to release: Release & Deployment Guide
 
+## Review & Merge (for reviewers)
+When a pull request is ready for review and merge, follow these steps:
+
+1. Submit your review
+   - Open the Pull Request and click "Files changed" or "Review changes".
+   - Choose one of the review options:
+     - Comment — submit general feedback without approving
+     - Approve — approve the changes (use when the PR meets requirements)
+     - Request changes — ask for modifications before approval
+   - Optionally leave a short comment (e.g., "LGTM") and click "Submit review".
+
+2. Merge the pull request
+   - If the PR has required approvals and there are no conflicts, change the PR status to "Ready for review" if it was a draft.
+   - Click "Merge pull request" and confirm the merge.
+   - After merging, optionally delete the branch and verify the issue (if present) is closed by the merge commit message (e.g., "Closes #2").
+
+Notes:
+- Only merge when CI checks and security scans have passed, and any release or QA criteria are satisfied.
+- Use the PR description and linked issue context when deciding whether the PR is ready to merge.
+
 ## Contributing
 To suggest changes:
 1. Review the relevant doc.
